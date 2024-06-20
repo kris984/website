@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Forum";
+    src:
+      local("Forum-Regular"),
+      url("fonts/FORUM-REGULAR.TTF") ,
+  }
+
+  h1{
+    font-family: "forum";
+    font-size: 126px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 300px !important;
+  }
+  h2{
+    font-family: "Forum";
+    font-size: 76px; 
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+  }
+  main{
+    background-image: url("images/screen1/MAIN.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 103px;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+  }
+  nav a img{
+    margin-bottom: -5px;
+  }
+  .main__container--button--one{
+    border: 1px solid white ;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-top: 35px;
+    width: 213px;
+    text-align: center;
+  }
+  .main__container--button--two{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 35px;
+    width: 213px;
+    text-align: center;
+  }
+  .container{
+    background-color: #eaeae6;
+    background-image: url("images/noise.png");
+  }
+  h3{
+    font-size: 34px;
+    font-family: "Forum";
+  }
+  .one__offer{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 45px;
+  }
+  .one{
+    padding: 103px;
+    padding-bottom: 0px;
+    color: #183804;
+  }
+  .one__offer p {
+    margin-bottom: 7px;
+    margin-left: 10px;
+  }
+  .one__offer span{
+    margin-bottom: 6px;
+    margin-left: 10px;
+  }
+  .one__container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+  }
+  .one__container article{
+    width: 380px;
+  }
+  h4{
+    font-size: 24px;
+    font-family: "Forum";
+    margin-top: 20px;
+  }
+  .one__container--button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+  }
+  .one__container--button p{
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .one__container--button a{
+    background-color: #183804;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 213px;
+    text-align: center;
+  }
